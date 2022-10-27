@@ -27,7 +27,7 @@ async def is_admins(chat_id: int):
 
 @bot.on_message(filters.command("start"))
 async def start(client, message):
-        await bot.join_chat("KINGBOTOFFICIALCHAT", "KINGBOTOFFICIAL")
+        await message.reply_text("Hi! My name is LUCI. I'm an Artificial Intelligence\n /chatbot - [on|off]")
 
 
 @bot.on_message(
